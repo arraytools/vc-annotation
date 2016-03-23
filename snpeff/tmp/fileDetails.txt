@@ -1,0 +1,4 @@
+/home/brb/SeqTestdata/RNASeqFibroblast/outputhg38/LFB_scramble_repA_raw.vcf
+/home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/LFB_scramble_repA_raw_genelist.txt
+/home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/LFB_scramble_repA_raw_annoTable.txt
+/home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/LFB_scramble_repA_raw_annotated.vcf

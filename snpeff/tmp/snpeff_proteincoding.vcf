@@ -1,0 +1,480 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##samtoolsVersion=1.3+htslib-1.3
+##samtoolsCommand=samtools mpileup -go temp.bcf -uf /home/brb/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.fa dedup.bam
+##reference=file:///home/brb/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.fa
+##contig=<ID=chr1,length=248956422>
+##contig=<ID=chr10,length=133797422>
+##contig=<ID=chr11,length=135086622>
+##contig=<ID=chr11_KI270721v1_random,length=100316>
+##contig=<ID=chr12,length=133275309>
+##contig=<ID=chr13,length=114364328>
+##contig=<ID=chr14,length=107043718>
+##contig=<ID=chr14_GL000009v2_random,length=201709>
+##contig=<ID=chr14_GL000194v1_random,length=191469>
+##contig=<ID=chr14_GL000225v1_random,length=211173>
+##contig=<ID=chr14_KI270722v1_random,length=194050>
+##contig=<ID=chr14_KI270723v1_random,length=38115>
+##contig=<ID=chr14_KI270724v1_random,length=39555>
+##contig=<ID=chr14_KI270725v1_random,length=172810>
+##contig=<ID=chr14_KI270726v1_random,length=43739>
+##contig=<ID=chr15,length=101991189>
+##contig=<ID=chr15_KI270727v1_random,length=448248>
+##contig=<ID=chr16,length=90338345>
+##contig=<ID=chr16_KI270728v1_random,length=1872759>
+##contig=<ID=chr17,length=83257441>
+##contig=<ID=chr17_GL000205v2_random,length=185591>
+##contig=<ID=chr17_KI270729v1_random,length=280839>
+##contig=<ID=chr17_KI270730v1_random,length=112551>
+##contig=<ID=chr18,length=80373285>
+##contig=<ID=chr19,length=58617616>
+##contig=<ID=chr1_KI270706v1_random,length=175055>
+##contig=<ID=chr1_KI270707v1_random,length=32032>
+##contig=<ID=chr1_KI270708v1_random,length=127682>
+##contig=<ID=chr1_KI270709v1_random,length=66860>
+##contig=<ID=chr1_KI270710v1_random,length=40176>
+##contig=<ID=chr1_KI270711v1_random,length=42210>
+##contig=<ID=chr1_KI270712v1_random,length=176043>
+##contig=<ID=chr1_KI270713v1_random,length=40745>
+##contig=<ID=chr1_KI270714v1_random,length=41717>
+##contig=<ID=chr2,length=242193529>
+##contig=<ID=chr20,length=64444167>
+##contig=<ID=chr21,length=46709983>
+##contig=<ID=chr22,length=50818468>
+##contig=<ID=chr22_KI270731v1_random,length=150754>
+##contig=<ID=chr22_KI270732v1_random,length=41543>
+##contig=<ID=chr22_KI270733v1_random,length=179772>
+##contig=<ID=chr22_KI270734v1_random,length=165050>
+##contig=<ID=chr22_KI270735v1_random,length=42811>
+##contig=<ID=chr22_KI270736v1_random,length=181920>
+##contig=<ID=chr22_KI270737v1_random,length=103838>
+##contig=<ID=chr22_KI270738v1_random,length=99375>
+##contig=<ID=chr22_KI270739v1_random,length=73985>
+##contig=<ID=chr2_KI270715v1_random,length=161471>
+##contig=<ID=chr2_KI270716v1_random,length=153799>
+##contig=<ID=chr3,length=198295559>
+##contig=<ID=chr3_GL000221v1_random,length=155397>
+##contig=<ID=chr4,length=190214555>
+##contig=<ID=chr4_GL000008v2_random,length=209709>
+##contig=<ID=chr5,length=181538259>
+##contig=<ID=chr5_GL000208v1_random,length=92689>
+##contig=<ID=chr6,length=170805979>
+##contig=<ID=chr7,length=159345973>
+##contig=<ID=chr8,length=145138636>
+##contig=<ID=chr9,length=138394717>
+##contig=<ID=chr9_KI270717v1_random,length=40062>
+##contig=<ID=chr9_KI270718v1_random,length=38054>
+##contig=<ID=chr9_KI270719v1_random,length=176845>
+##contig=<ID=chr9_KI270720v1_random,length=39050>
+##contig=<ID=chrEBV,length=171823>
+##contig=<ID=chrM,length=16569>
+##contig=<ID=chrUn_GL000195v1,length=182896>
+##contig=<ID=chrUn_GL000213v1,length=164239>
+##contig=<ID=chrUn_GL000214v1,length=137718>
+##contig=<ID=chrUn_GL000216v2,length=176608>
+##contig=<ID=chrUn_GL000218v1,length=161147>
+##contig=<ID=chrUn_GL000219v1,length=179198>
+##contig=<ID=chrUn_GL000220v1,length=161802>
+##contig=<ID=chrUn_GL000224v1,length=179693>
+##contig=<ID=chrUn_GL000226v1,length=15008>
+##contig=<ID=chrUn_KI270302v1,length=2274>
+##contig=<ID=chrUn_KI270303v1,length=1942>
+##contig=<ID=chrUn_KI270304v1,length=2165>
+##contig=<ID=chrUn_KI270305v1,length=1472>
+##contig=<ID=chrUn_KI270310v1,length=1201>
+##contig=<ID=chrUn_KI270311v1,length=12399>
+##contig=<ID=chrUn_KI270312v1,length=998>
+##contig=<ID=chrUn_KI270315v1,length=2276>
+##contig=<ID=chrUn_KI270316v1,length=1444>
+##contig=<ID=chrUn_KI270317v1,length=37690>
+##contig=<ID=chrUn_KI270320v1,length=4416>
+##contig=<ID=chrUn_KI270322v1,length=21476>
+##contig=<ID=chrUn_KI270329v1,length=1040>
+##contig=<ID=chrUn_KI270330v1,length=1652>
+##contig=<ID=chrUn_KI270333v1,length=2699>
+##contig=<ID=chrUn_KI270334v1,length=1368>
+##contig=<ID=chrUn_KI270335v1,length=1048>
+##contig=<ID=chrUn_KI270336v1,length=1026>
+##contig=<ID=chrUn_KI270337v1,length=1121>
+##contig=<ID=chrUn_KI270338v1,length=1428>
+##contig=<ID=chrUn_KI270340v1,length=1428>
+##contig=<ID=chrUn_KI270362v1,length=3530>
+##contig=<ID=chrUn_KI270363v1,length=1803>
+##contig=<ID=chrUn_KI270364v1,length=2855>
+##contig=<ID=chrUn_KI270366v1,length=8320>
+##contig=<ID=chrUn_KI270371v1,length=2805>
+##contig=<ID=chrUn_KI270372v1,length=1650>
+##contig=<ID=chrUn_KI270373v1,length=1451>
+##contig=<ID=chrUn_KI270374v1,length=2656>
+##contig=<ID=chrUn_KI270375v1,length=2378>
+##contig=<ID=chrUn_KI270376v1,length=1136>
+##contig=<ID=chrUn_KI270378v1,length=1048>
+##contig=<ID=chrUn_KI270379v1,length=1045>
+##contig=<ID=chrUn_KI270381v1,length=1930>
+##contig=<ID=chrUn_KI270382v1,length=4215>
+##contig=<ID=chrUn_KI270383v1,length=1750>
+##contig=<ID=chrUn_KI270384v1,length=1658>
+##contig=<ID=chrUn_KI270385v1,length=990>
+##contig=<ID=chrUn_KI270386v1,length=1788>
+##contig=<ID=chrUn_KI270387v1,length=1537>
+##contig=<ID=chrUn_KI270388v1,length=1216>
+##contig=<ID=chrUn_KI270389v1,length=1298>
+##contig=<ID=chrUn_KI270390v1,length=2387>
+##contig=<ID=chrUn_KI270391v1,length=1484>
+##contig=<ID=chrUn_KI270392v1,length=971>
+##contig=<ID=chrUn_KI270393v1,length=1308>
+##contig=<ID=chrUn_KI270394v1,length=970>
+##contig=<ID=chrUn_KI270395v1,length=1143>
+##contig=<ID=chrUn_KI270396v1,length=1880>
+##contig=<ID=chrUn_KI270411v1,length=2646>
+##contig=<ID=chrUn_KI270412v1,length=1179>
+##contig=<ID=chrUn_KI270414v1,length=2489>
+##contig=<ID=chrUn_KI270417v1,length=2043>
+##contig=<ID=chrUn_KI270418v1,length=2145>
+##contig=<ID=chrUn_KI270419v1,length=1029>
+##contig=<ID=chrUn_KI270420v1,length=2321>
+##contig=<ID=chrUn_KI270422v1,length=1445>
+##contig=<ID=chrUn_KI270423v1,length=981>
+##contig=<ID=chrUn_KI270424v1,length=2140>
+##contig=<ID=chrUn_KI270425v1,length=1884>
+##contig=<ID=chrUn_KI270429v1,length=1361>
+##contig=<ID=chrUn_KI270435v1,length=92983>
+##contig=<ID=chrUn_KI270438v1,length=112505>
+##contig=<ID=chrUn_KI270442v1,length=392061>
+##contig=<ID=chrUn_KI270448v1,length=7992>
+##contig=<ID=chrUn_KI270465v1,length=1774>
+##contig=<ID=chrUn_KI270466v1,length=1233>
+##contig=<ID=chrUn_KI270467v1,length=3920>
+##contig=<ID=chrUn_KI270468v1,length=4055>
+##contig=<ID=chrUn_KI270507v1,length=5353>
+##contig=<ID=chrUn_KI270508v1,length=1951>
+##contig=<ID=chrUn_KI270509v1,length=2318>
+##contig=<ID=chrUn_KI270510v1,length=2415>
+##contig=<ID=chrUn_KI270511v1,length=8127>
+##contig=<ID=chrUn_KI270512v1,length=22689>
+##contig=<ID=chrUn_KI270515v1,length=6361>
+##contig=<ID=chrUn_KI270516v1,length=1300>
+##contig=<ID=chrUn_KI270517v1,length=3253>
+##contig=<ID=chrUn_KI270518v1,length=2186>
+##contig=<ID=chrUn_KI270519v1,length=138126>
+##contig=<ID=chrUn_KI270521v1,length=7642>
+##contig=<ID=chrUn_KI270522v1,length=5674>
+##contig=<ID=chrUn_KI270528v1,length=2983>
+##contig=<ID=chrUn_KI270529v1,length=1899>
+##contig=<ID=chrUn_KI270530v1,length=2168>
+##contig=<ID=chrUn_KI270538v1,length=91309>
+##contig=<ID=chrUn_KI270539v1,length=993>
+##contig=<ID=chrUn_KI270544v1,length=1202>
+##contig=<ID=chrUn_KI270548v1,length=1599>
+##contig=<ID=chrUn_KI270579v1,length=31033>
+##contig=<ID=chrUn_KI270580v1,length=1553>
+##contig=<ID=chrUn_KI270581v1,length=7046>
+##contig=<ID=chrUn_KI270582v1,length=6504>
+##contig=<ID=chrUn_KI270583v1,length=1400>
+##contig=<ID=chrUn_KI270584v1,length=4513>
+##contig=<ID=chrUn_KI270587v1,length=2969>
+##contig=<ID=chrUn_KI270588v1,length=6158>
+##contig=<ID=chrUn_KI270589v1,length=44474>
+##contig=<ID=chrUn_KI270590v1,length=4685>
+##contig=<ID=chrUn_KI270591v1,length=5796>
+##contig=<ID=chrUn_KI270593v1,length=3041>
+##contig=<ID=chrUn_KI270741v1,length=157432>
+##contig=<ID=chrUn_KI270742v1,length=186739>
+##contig=<ID=chrUn_KI270743v1,length=210658>
+##contig=<ID=chrUn_KI270744v1,length=168472>
+##contig=<ID=chrUn_KI270745v1,length=41891>
+##contig=<ID=chrUn_KI270746v1,length=66486>
+##contig=<ID=chrUn_KI270747v1,length=198735>
+##contig=<ID=chrUn_KI270748v1,length=93321>
+##contig=<ID=chrUn_KI270749v1,length=158759>
+##contig=<ID=chrUn_KI270750v1,length=148850>
+##contig=<ID=chrUn_KI270751v1,length=150742>
+##contig=<ID=chrUn_KI270752v1,length=27745>
+##contig=<ID=chrUn_KI270753v1,length=62944>
+##contig=<ID=chrUn_KI270754v1,length=40191>
+##contig=<ID=chrUn_KI270755v1,length=36723>
+##contig=<ID=chrUn_KI270756v1,length=79590>
+##contig=<ID=chrUn_KI270757v1,length=71251>
+##contig=<ID=chrX,length=156040895>
+##contig=<ID=chrY,length=57227415>
+##contig=<ID=chrY_KI270740v1_random,length=37240>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=BQB,Number=1,Type=Float,Description="Mann-Whitney U test of Base Quality Bias (bigger is better)">
+##INFO=<ID=MQSB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality vs Strand Bias (bigger is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric.">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=ICB,Number=1,Type=Float,Description="Inbreeding Coefficient Binomial test (bigger is better)">
+##INFO=<ID=HOB,Number=1,Type=Float,Description="Bias in the number of HOMs number (smaller is better)">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##bcftools_callVersion=1.3+htslib-1.3
+##bcftools_callCommand=call -vmO v -o /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38/LFB_scramble_repA_raw.vcf temp.bcf
+##bcftools_filterVersion=1.3+htslib-1.3
+##bcftools_filterCommand=filter '-iQUAL >= 1 && DP >= 1 && MQ >= 1' /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38/LFB_scramble_repA_raw.vcf
+##bcftools_normVersion=1.3+htslib-1.3
+##bcftools_normCommand=norm -m-both -o /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/splitted.vcf /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/filtered.vcf
+##bcftools_normCommand=norm -f /home/brb/igenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa -o /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/leftnormalized.vcf /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/splitted.vcf
+##contig=<ID=1>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=2>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=M>
+##contig=<ID=X>
+##bcftools_annotateVersion=1.3+htslib-1.3
+##bcftools_annotateCommand=annotate -c ID -a /home/brb/SeqTestdata/usefulvcf/hg38/common_all_20151104.vcf.gz /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/leftnormalized.nochr.vcf.gz
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene name">
+##bcftools_annotateCommand=annotate -c ID,+GENE -a /home/brb/SeqTestdata/usefulvcf/hg38/CosmicCodingMuts.vcf.gz /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/dbsnp_anno.vcf.gz
+##SnpEffVersion="4.2 (build 2015-12-05), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  -no-downstream -no-upstream -no-intergenic -no-intron -no-utr hg38 -s /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/annodbsnpRemove.html /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_snpeff/tmp/tmp_LFB_scramble_repA_raw/cosmic_dbsnp_rem.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected' ">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected' ">
+##SnpSiftVersion="SnpSift 4.2 (build 2015-12-05), by Pablo Cingolani"
+##SnpSiftCmd="SnpSift filter '(ANN[*].BIOTYPE = 'protein_coding') | (ANN[*].EFFECT has 'splice')'"
+##FILTER=<ID=SnpSift,Description="SnpSift 4.2 (build 2015-12-05), by Pablo Cingolani, Expression used: (ANN[*].BIOTYPE = 'protein_coding') | (ANN[*].EFFECT has 'splice')">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	dedup.bam
+1	1014228	COSM3751464	G	A	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=ISG15;ANN=A|missense_variant|MODERATE|ISG15|ISG15|transcript|NM_005101.3|protein_coding|2/2|c.248G>A|p.Ser83Asn|355/666|248/498|83/165||	GT:PL	0/1:39,3,0
+1	21850165	.	A	T	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|HSPG2|HSPG2|transcript|NM_001291860.1|protein_coding|57/97|c.7325T>A|p.Ile2442Asn|7405/14343|7325/13179|2442/4392||	GT:PL	0/1:31,3,0
+1	27793570	.	G	A	5.58414	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|STX12|STX12|transcript|NM_177424.2|protein_coding|3/9|c.226G>A|p.Glu76Lys|351/3079|226/831|76/276||	GT:PL	0/1:32,3,0
+1	45515728	.	C	T	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|synonymous_variant|LOW|PRDX1|PRDX1|transcript|NM_001202431.1|protein_coding|3/6|c.186G>A|p.Arg62Arg|310/1018|186/600|62/199||	GT:PL	0/1:37,3,0
+1	114720635	.	G	C	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|synonymous_variant|LOW|CSDE1|CSDE1|transcript|NM_001242891.1|protein_coding|18/21|c.2094C>G|p.Val698Val|2616/4313|2094/2535|698/844||	GT:PL	0/1:31,3,0
+1	114720652	COSM4218186	G	A	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=CSDE1;ANN=A|stop_gained|HIGH|CSDE1|CSDE1|transcript|NM_001242891.1|protein_coding|18/21|c.2077C>T|p.Gln693*|2599/4313|2077/2535|693/844||;LOF=(CSDE1|CSDE1|1|1.00);NMD=(CSDE1|CSDE1|1|1.00)	GT:PL	0/1:41,3,0
+1	151166982	.	C	T	27.3426	PASS	DP=2;VDB=0.84;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=T|synonymous_variant|LOW|TNFAIP8L2-SCNM1|TNFAIP8L2-SCNM1|transcript|NM_001204848.1|protein_coding|3/7|c.66C>T|p.Ala22Ala|214/1948|66/588|22/195||,T|synonymous_variant|LOW|SCNM1|SCNM1|transcript|NM_024041.3|protein_coding|3/7|c.171C>T|p.Ala57Ala|302/2036|171/693|57/230||	GT:PL	1/1:55,6,0
+1	153986128	.	A	G	10.9943	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|RAB13|RAB13|transcript|NM_002870.3|protein_coding|1/8|c.109T>C|p.Tyr37His|250/1235|109/612|37/203||	GT:PL	1/1:38,3,0
+1	154978036	.	C	T	40.3352	PASS	DP=2;VDB=0.18;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=T|synonymous_variant|LOW|CKS1B|CKS1B|transcript|NM_001826.2|protein_coding|2/3|c.109C>T|p.Leu37Leu|213/816|109/240|37/79||	GT:PL	1/1:68,6,0
+1	156136394	COSM4985025	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=LMNA_ENST00000392353;ANN=C|synonymous_variant|LOW|LMNA|LMNA|transcript|NM_170707.3|protein_coding|7/12|c.1338T>C|p.Asp446Asp|1587/3227|1338/1995|446/664||	GT:PL	0/1:37,3,0
+1	156592463	.	C	T	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|synonymous_variant|LOW|APOA1BP|APOA1BP|transcript|NM_144772.2|protein_coding|3/6|c.390C>T|p.His130His|429/1121|390/867|130/288||	GT:PL	0/1:37,3,0
+1	156670516	COSM1559925	C	T	22.6577	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;GENE=NES;ANN=T|synonymous_variant|LOW|NES|NES|transcript|NM_006617.1|protein_coding|4/4|c.3672G>A|p.Thr1224Thr|3805/5558|3672/4866|1224/1621||	GT:PL	1/1:50,3,0
+1	173485410	COSM5378456	C	T	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=PRDX6;ANN=T|missense_variant|MODERATE|PRDX6|PRDX6|transcript|NM_004905.2|protein_coding|3/5|c.302C>T|p.Pro101Leu|353/1670|302/675|101/224||	GT:PL	0/1:33,3,0
+1	183116645	.	A	T	7.93884	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=T|missense_variant|MODERATE|LAMC1|LAMC1|transcript|NM_002293.3|protein_coding|7/28|c.1397A>T|p.Lys466Ile|1654/7889|1397/4830|466/1609||	GT:PL	0/1:35,3,0
+1	228097438	.	T	C	7.93884	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|missense_variant|MODERATE|ARF1|ARF1|transcript|NM_001024226.1|protein_coding|3/5|c.245T>C|p.Phe82Ser|473/1973|245/546|82/181||	GT:PL	0/1:35,3,0
+1	235246483	.	G	C	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|ARID4B|ARID4B|transcript|NM_001206794.1|protein_coding|7/24|c.383C>G|p.Pro128Arg|760/5946|383/3939|128/1312||	GT:PL	0/1:33,3,0
+1	244835735	.	C	T	41.3351	PASS	DP=2;VDB=0.14;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=T|synonymous_variant|LOW|COX20|COX20|transcript|NM_001312872.1|protein_coding|1/5|c.21C>T|p.Pro7Pro|260/2519|21/393|7/130||	GT:PL	1/1:69,6,0
+10	73913343	COSM4144861	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=PLAU;ANN=C|missense_variant|MODERATE|PLAU|PLAU|transcript|NM_002658.3|protein_coding|6/11|c.422T>C|p.Leu141Pro|568/2377|422/1296|141/431||	GT:PL	0/1:37,3,0
+10	77821226	.	G	T	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|synonymous_variant|LOW|DLG5|DLG5|transcript|NM_004747.3|protein_coding|15/32|c.3258C>A|p.Ser1086Ser|3328/7479|3258/5760|1086/1919||	GT:PL	0/1:37,3,0
+10	102655280	.	C	T	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|synonymous_variant|LOW|TRIM8|TRIM8|transcript|NM_030912.2|protein_coding|3/6|c.867C>T|p.Leu289Leu|990/2744|867/1656|289/551||	GT:PL	0/1:41,3,0
+10	102656760	.	G	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|TRIM8|TRIM8|transcript|NM_030912.2|protein_coding|6/6|c.1062G>C|p.Thr354Thr|1185/2744|1062/1656|354/551||	GT:PL	0/1:34,3,0
+11	587410	.	G	A	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|synonymous_variant|LOW|PHRF1|PHRF1.2|transcript|NM_001286581.1|protein_coding|4/18|c.366G>A|p.Thr122Thr|534/5563|366/4950|122/1649||	GT:PL	0/1:31,3,0
+11	8953285	.	A	C	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|TMEM9B|TMEM9B|transcript|NM_020644.2|protein_coding|4/5|c.359T>G|p.Val120Gly|819/2176|359/597|120/198||	GT:PL	0/1:31,3,0
+11	11964514	COSM3998264	T	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=DKK3;ANN=C|missense_variant|MODERATE|DKK3|DKK3|transcript|NM_001018057.1|protein_coding|7/7|c.1003A>G|p.Arg335Gly|1060/2578|1003/1053|335/350||	GT:PL	0/1:41,3,0
+11	12224686	COSM4415768	G	C	44.335	PASS	DP=2;VDB=0.56;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=MICAL2;ANN=C|synonymous_variant|LOW|MICAL2|MICAL2|transcript|NM_001282663.1|protein_coding|13/28|c.1554G>C|p.Arg518Arg|1853/3922|1554/3375|518/1124||	GT:PL	1/1:72,6,0
+11	35180295	COSM1353673	C	T	22.3599	PASS	DP=2;VDB=0.14;SGB=-0.453602;MQ0F=0;AC=2;AN=2;DP4=0,0,2,0;MQ=50;GENE=CD44;ANN=T|synonymous_variant|LOW|CD44|CD44|transcript|NM_000610.3|protein_coding|3/18|c.255C>T|p.His85His|689/5732|255/2229|85/742||	GT:PL	1/1:50,6,0
+11	62525410	COSM4591033	G	T	64.0	PASS	DP=3;VDB=0.84;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=AHNAK_ENST00000378024;ANN=T|missense_variant|MODERATE|AHNAK|AHNAK|transcript|NM_001620.2|protein_coding|5/5|c.9007C>A|p.Gln3003Lys|9307/18815|9007/17673|3003/5890||	GT:PL	1/1:91,6,0
+11	62566918	.	T	A	5.58414	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|stop_gained|HIGH|EEF1G|EEF1G|transcript|NM_001404.4|protein_coding|7/10|c.745A>T|p.Lys249*|891/1538|745/1314|249/437||;LOF=(EEF1G|EEF1G|1|1.00);NMD=(EEF1G|EEF1G|1|1.00)	GT:PL	0/1:32,3,0
+11	65647557	COSM4146121	T	G	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=SIPA1;ANN=G|synonymous_variant|LOW|SIPA1|SIPA1|transcript|NM_006747.3|protein_coding|9/16|c.2205T>G|p.Thr735Thr|2372/3501|2205/3129|735/1042||	GT:PL	0/1:33,3,0
+11	66058372	.	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|SF3B2|SF3B2|transcript|NM_006842.2|protein_coding|9/22|c.933T>C|p.Thr311Thr|973/2894|933/2688|311/895||	GT:PL	0/1:37,3,0
+11	69063896	COSM3752698	G	A	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=TPCN2;ANN=A|missense_variant&splice_region_variant|MODERATE|TPCN2|TPCN2|transcript|NM_139075.3|protein_coding|7/25|c.655G>A|p.Val219Ile|771/5026|655/2259|219/752||	GT:PL	0/1:31,3,0
+11	69648082	.	C	T	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|synonymous_variant|LOW|CCND1|CCND1|transcript|NM_053056.2|protein_coding|4/5|c.663C>T|p.Asn221Asn|872/4289|663/888|221/295||	GT:PL	0/1:40,3,0
+11	75566947	COSM3752739	C	T	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=SERPINH1;ANN=T|synonymous_variant|LOW|SERPINH1|SERPINH1|transcript|NM_001207014.1|protein_coding|3/6|c.598C>T|p.Leu200Leu|940/2320|598/1257|200/418||	GT:PL	0/1:41,3,0
+11	94821607	.	G	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|missense_variant|MODERATE|AMOTL1|AMOTL1|transcript|NM_130847.2|protein_coding|4/13|c.1199G>A|p.Gly400Glu|1369/8999|1199/2871|400/956||	GT:PL	0/1:34,3,0
+11	117203393	COSM3998245	G	A	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=TAGLN;ANN=A|synonymous_variant|LOW|TAGLN|TAGLN|transcript|NM_001001522.1|protein_coding|3/5|c.267G>A|p.Lys89Lys|785/1557|267/606|89/201||	GT:PL	0/1:31,3,0
+11	119285486	.	C	T	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|CBL|CBL|transcript|NM_005188.3|protein_coding|11/16|c.1861C>T|p.Pro621Ser|2003/11231|1861/2721|621/906||	GT:PL	0/1:37,3,0
+11	122809819	.	C	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|UBASH3B|UBASH3B|transcript|NM_032873.4|protein_coding|14/14|c.1883C>G|p.Pro628Arg|2243/6903|1883/1950|628/649||	GT:PL	0/1:34,3,0
+11	123057879	.	A	C	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|HSPA8|HSPA8|transcript|NM_006597.5|protein_coding|9/9|c.1796T>G|p.Leu599Arg|2073/2460|1796/1941|599/646||	GT:PL	0/1:31,3,0
+11	130903322	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|missense_variant|MODERATE|SNX19|SNX19|transcript|NM_014758.2|protein_coding|8/11|c.2506T>C|p.Trp836Arg|3054/6078|2506/2979|836/992||	GT:PL	0/1:34,3,0
+12	29368260	COSM4417966	A	G	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=ERGIC2;ANN=G|synonymous_variant|LOW|ERGIC2|ERGIC2|transcript|NM_016570.2|protein_coding|4/14|c.243T>C|p.Thr81Thr|376/1777|243/1134|81/377||	GT:PL	0/1:40,3,0
+12	49186397	COSM5459982	T	C	72.0	PASS	DP=3;VDB=0.0681597;SGB=-0.511536;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,2;MQ=50;GENE=TUBA1A_ENST00000301071;ANN=C|synonymous_variant|LOW|TUBA1A|TUBA1A|transcript|NM_001270399.1|protein_coding|3/4|c.288A>G|p.Lys96Lys|1193/2476|288/1356|96/451||	GT:PL	1/1:100,9,0
+12	55725892	.	C	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|CD63|CD63|transcript|NM_001257389.1|protein_coding|7/8|c.572G>T|p.Cys191Phe|975/1238|572/717|191/238||	GT:PL	0/1:34,3,0
+12	55725893	.	A	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|CD63|CD63|transcript|NM_001257389.1|protein_coding|7/8|c.571T>G|p.Cys191Gly|974/1238|571/717|191/238||	GT:PL	0/1:34,3,0
+12	57158464	.	GAT	G	22.2031	PASS	INDEL;IDV=1;IMF=1;DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|frameshift_variant|HIGH|LRP1|LRP1|transcript|NM_002332.2|protein_coding|11/89|c.1627_1628delAT|p.Met543fs|2093/14888|1627/13635|543/4544||INFO_REALIGN_3_PRIME;LOF=(LRP1|LRP1|1|1.00)	GT:PL	0/1:50,3,0
+12	57173979	COSM3753403	C	T	88.0	PASS	DP=4;VDB=0.836469;SGB=-0.556411;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,2,2;MQ=50;GENE=LRP1;ANN=T|splice_region_variant&synonymous_variant|LOW|LRP1|LRP1|transcript|NM_002332.2|protein_coding|22/89|c.3546C>T|p.Cys1182Cys|4012/14888|3546/13635|1182/4544||	GT:PL	1/1:115,12,0
+12	69253134	COSM5450708	G	A	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=CPSF6_ENST00000435070;ANN=A|synonymous_variant|LOW|CPSF6|CPSF6|transcript|NM_001300947.1|protein_coding|3/11|c.354G>A|p.Arg118Arg|464/6727|354/1767|118/588||	GT:PL	0/1:41,3,0
+12	69256718	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|synonymous_variant|LOW|CPSF6|CPSF6|transcript|NM_001300947.1|protein_coding|4/11|c.396A>G|p.Gly132Gly|506/6727|396/1767|132/588||	GT:PL	0/1:34,3,0
+12	120462122	.	G	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|SRSF9|SRSF9|transcript|NM_003769.2|protein_coding|4/4|c.563C>G|p.Thr188Ser|709/1163|563/666|188/221||	GT:PL	0/1:34,3,0
+12	124912818	COSM3811432	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=UBC;ANN=G|synonymous_variant|LOW|UBC|UBC|transcript|NM_021009.6|protein_coding|2/2|c.954T>C|p.Thr318Thr|1412/2585|954/2058|318/685||	GT:PL	0/1:34,3,0
+13	19661793	.	T	C	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|synonymous_variant|LOW|MPHOSPH8|MPHOSPH8|transcript|NM_017520.3|protein_coding|8/14|c.1887T>C|p.Gly629Gly|1988/4268|1887/2583|629/860||	GT:PL	0/1:31,3,0
+13	19663079	.	G	C	36.3357	PASS	DP=2;VDB=0.44;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=C|missense_variant|MODERATE|MPHOSPH8|MPHOSPH8|transcript|NM_017520.3|protein_coding|9/14|c.1972G>C|p.Ala658Pro|2073/4268|1972/2583|658/860||	GT:PL	1/1:64,6,0
+13	27253827	.	G	T	31.8127	PASS	DP=3;VDB=0.42;SGB=-0.453602;RPB=1;MQB=1;MQSB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,0,1,1;MQ=50;ANN=T|missense_variant|MODERATE|RPL21|RPL21.2|transcript|NM_000982.3.2|protein_coding|2/6|c.51G>T|p.Arg17Ser|94/566|51/483|17/160||	GT:PL	0/1:65,0,25
+13	45339553	.	T	C	31.407	PASS	DP=4;VDB=0.44;SGB=-0.453602;RPB=0;MQB=1;MQSB=1;BQB=0.75;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=2,0,1,1;MQ=50;ANN=C|missense_variant|MODERATE|TPT1|TPT1|transcript|NM_001286272.1|protein_coding|4/6|c.343A>G|p.Met115Val|558/4814|343/594|115/197||	GT:PL	0/1:64,0,59
+13	79366134	.	T	C	7.93884	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|RBM26|RBM26|transcript|NM_001286631.1|protein_coding|8/22|c.1197A>G|p.Ala399Ala|1644/5230|1197/3030|399/1009||	GT:PL	0/1:35,3,0
+13	79366135	.	G	T	7.93884	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=T|missense_variant|MODERATE|RBM26|RBM26|transcript|NM_001286631.1|protein_coding|8/22|c.1196C>A|p.Ala399Glu|1643/5230|1196/3030|399/1009||	GT:PL	0/1:35,3,0
+13	79366671	.	G	A	4.23583	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|RBM26|RBM26|transcript|NM_001286631.1|protein_coding|7/22|c.1097C>T|p.Pro366Leu|1544/5230|1097/3030|366/1009||	GT:PL	0/1:30,3,0
+13	79366673	.	T	A	4.23583	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|synonymous_variant|LOW|RBM26|RBM26|transcript|NM_001286631.1|protein_coding|7/22|c.1095A>T|p.Pro365Pro|1542/5230|1095/3030|365/1009||	GT:PL	0/1:30,3,0
+13	95947998	.	A	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|splice_region_variant&synonymous_variant|LOW|UGGT2|UGGT2|transcript|NM_020121.3|protein_coding|14/39|c.1539T>A|p.Leu513Leu|1709/4930|1539/4551|513/1516||	GT:PL	0/1:34,3,0
+13	110503185	.	G	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|synonymous_variant|LOW|COL4A2|COL4A2|transcript|NM_001846.2|protein_coding|42/48|c.3942G>A|p.Gly1314Gly|4231/6263|3942/5139|1314/1712||	GT:PL	0/1:34,3,0
+14	22836839	COSM432856	C	T	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=MMP14;ANN=T|missense_variant|MODERATE|MMP14|MMP14|transcript|NM_004995.3|protein_coding|1/10|c.22C>T|p.Pro8Ser|307/3594|22/1749|8/582||	GT:PL	0/1:39,3,0
+14	59475893	.	T	C	48.3349	PASS	DP=2;VDB=0.52;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=C|synonymous_variant|LOW|L3HYPDH|L3HYPDH|transcript|NM_144581.1|protein_coding|4/5|c.915A>G|p.Ser305Ser|954/1381|915/1065|305/354||	GT:PL	1/1:76,6,0
+14	77736983	.	G	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|SNW1|SNW1|transcript|NM_012245.2|protein_coding|6/14|c.626C>G|p.Pro209Arg|653/2125|626/1611|209/536||	GT:PL	0/1:34,3,0
+14	100361818	.	G	T	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|WARS|WARS|transcript|NM_004184.3|protein_coding|3/11|c.203C>A|p.Ala68Glu|584/2884|203/1416|68/471||	GT:PL	0/1:37,3,0
+15	22910607	.	T	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|synonymous_variant|LOW|CYFIP1|CYFIP1.2|transcript|NM_001287810.1|protein_coding|21/32|c.2181A>G|p.Leu727Leu|2439/4583|2181/3762|727/1253||	GT:PL	0/1:34,3,0
+15	22910608	.	A	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|stop_gained|HIGH|CYFIP1|CYFIP1.2|transcript|NM_001287810.1|protein_coding|21/32|c.2180T>A|p.Leu727*|2438/4583|2180/3762|727/1253||;LOF=(CYFIP1|CYFIP1.2|1|1.00);NMD=(CYFIP1|CYFIP1.2|1|1.00)	GT:PL	0/1:34,3,0
+15	36654102	COSM4148685	C	G	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=C15orf41;ANN=G|missense_variant|MODERATE|C15orf41|C15orf41|transcript|NM_001290233.1|protein_coding|4/11|c.217C>G|p.Leu73Val|475/1281|217/861|73/286||	GT:PL	0/1:40,3,0
+15	39592590	.	T	G	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|THBS1|THBS1|transcript|NM_003246.3|protein_coding|17/22|c.2555T>G|p.Ile852Ser|2734/7244|2555/3513|852/1170||	GT:PL	0/1:31,3,0
+15	78289648	.	G	A	4.23583	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|WDR61|WDR61|transcript|NM_001303247.1|protein_coding|7/11|c.533C>T|p.Ala178Val|843/1424|533/918|178/305||	GT:PL	0/1:30,3,0
+15	78944905	COSM4128437	C	G	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=CTSH;ANN=G|missense_variant|MODERATE|CTSH|CTSH|transcript|NM_004390.3|protein_coding|1/12|c.77G>C|p.Cys26Ser|174/1485|77/1008|26/335||	GT:PL	0/1:41,3,0
+15	90953192	.	T	G	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|UNC45A|UNC45A|transcript|NM_018671.3|protein_coding|19/20|c.2459T>G|p.Leu820Arg|2799/3552|2459/2835|820/944||	GT:PL	0/1:31,3,0
+16	1541961	COSM434706	G	A	31.3379	PASS	DP=2;VDB=0.58;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=TMEM204;ANN=A|synonymous_variant|LOW|TMEM204|TMEM204|transcript|NM_001256541.1|protein_coding|3/4|c.321G>A|p.Thr107Thr|719/1633|321/681|107/226||	GT:PL	1/1:59,6,0
+16	2091872	.	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|PKD1|PKD1|transcript|NM_001009944.2|protein_coding|41/46|c.11446A>G|p.Ser3816Gly|11655/14138|11446/12912|3816/4303||	GT:PL	0/1:37,3,0
+16	53480608	.	T	G	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|RBL2|RBL2|transcript|NM_005611.3|protein_coding|20/22|c.2923T>G|p.Leu975Val|3041/4886|2923/3420|975/1139||	GT:PL	0/1:33,3,0
+16	89561617	.	AT	A	5.58282	PASS	INDEL;IDV=1;IMF=1;DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|frameshift_variant|HIGH|RPL13|RPL13|transcript|NM_000977.3|protein_coding|4/6|c.289delT|p.Ser97fs|365/4499|289/636|97/211||INFO_REALIGN_3_PRIME;LOF=(RPL13|RPL13|1|1.00)	GT:PL	0/1:32,3,0
+17	1470224	COSM4129576	T	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=MYO1C_ENST00000359786;ANN=C|missense_variant|MODERATE|MYO1C|MYO1C|transcript|NM_001080779.1|protein_coding|24/32|c.2477A>G|p.Gln826Arg|2697/4952|2477/3192|826/1063||	GT:PL	0/1:41,3,0
+17	2692670	COSM436207	G	A	37.3355	PASS	DP=2;VDB=0.9;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=KIAA0664_ENST00000322335;ANN=A|synonymous_variant|LOW|CLUH|CLUH|transcript|NM_015229.3|protein_coding|21/26|c.3222C>T|p.Ala1074Ala|3308/5224|3222/3930|1074/1309||	GT:PL	1/1:65,6,0
+17	7908471	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|CHD3|CHD3|transcript|NM_001005271.2|protein_coding|35/40|c.5399A>G|p.His1800Arg|5401/7354|5399/6180|1800/2059||	GT:PL	0/1:34,3,0
+17	18790964	COSM3773779	G	A	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=FAM18B1;ANN=A|missense_variant|MODERATE|TVP23B|TVP23B|transcript|NM_016078.5|protein_coding|3/7|c.164G>A|p.Gly55Glu|463/2063|164/618|55/205||	GT:PL	0/1:41,3,0
+17	49619076	COSM242642	T	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=SPOP;ANN=C|protein_protein_contact|HIGH|SPOP|SPOP|interaction|NM_001007226.1:3HQI_B:90_129|protein_coding|7/12|c.385A>G||||||,C|protein_protein_contact|HIGH|SPOP|SPOP|interaction|NM_001007226.1:3HU6_B:89_129|protein_coding|7/12|c.385A>G||||||,C|protein_protein_contact|HIGH|SPOP|SPOP|interaction|NM_001007226.1:3HU6_B:90_129|protein_coding|7/12|c.385A>G||||||,C|missense_variant|MODERATE|SPOP|SPOP|transcript|NM_001007226.1|protein_coding|7/12|c.385A>G|p.Lys129Glu|856/3090|385/1125|129/374||	GT:PL	0/1:34,3,0
+17	50188590	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|synonymous_variant|LOW|COL1A1|COL1A1|transcript|NM_000088.3|protein_coding|43/51|c.3147T>C|p.Gly1049Gly|3273/5927|3147/4395|1049/1464||	GT:PL	0/1:34,3,0
+17	50190862	COSM4130379	A	G	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=COL1A1;ANN=G|synonymous_variant|LOW|COL1A1|COL1A1|transcript|NM_000088.3|protein_coding|33/51|c.2298T>C|p.Thr766Thr|2424/5927|2298/4395|766/1464||	GT:PL	0/1:41,3,0
+17	50196323	.	A	C	5.34695	PASS	DP=3;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|synonymous_variant|LOW|COL1A1|COL1A1|transcript|NM_000088.3|protein_coding|14/51|c.948T>G|p.Pro316Pro|1074/5927|948/4395|316/1464||	GT:PL	1/1:31,3,0
+17	50199874	COSM5019853	C	A	60.0	PASS	DP=4;VDB=0.598038;SGB=-0.511536;RPB=1;MQB=1;MQSB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,0,1,2;MQ=50;GENE=COL1A1;ANN=A|synonymous_variant|LOW|COL1A1|COL1A1|transcript|NM_000088.3|protein_coding|2/51|c.177G>T|p.Arg59Arg|303/5927|177/4395|59/1464||	GT:PL	0/1:94,0,29
+17	61408312	.	G	C	22.6577	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|TBX2|TBX2|transcript|NM_005994.3|protein_coding|7/7|c.1945G>C|p.Ala649Pro|2226/3380|1945/2139|649/712||	GT:PL	1/1:50,3,0
+17	73227217	.	T	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|FAM104A|FAM104A|transcript|NM_001098832.1|protein_coding|2/4|c.269A>G|p.Gln90Arg|357/2888|269/624|90/207||	GT:PL	0/1:34,3,0
+17	81510690	COSM3720700	T	C	11.4425	PASS	DP=3;SGB=-0.379885;RPB=1;MQB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,0,1,0;MQ=50;GENE=ACTG1;ANN=C|stop_retained_variant|LOW|ACTG1|ACTG1|transcript|NM_001199954.1|protein_coding|6/6|c.1128A>G|p.Ter376Ter|1386/2105|1128/1128|376/375||	GT:PL	0/1:44,0,14
+17	82237888	.	C	A	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|stop_gained|HIGH|SLC16A3|SLC16A3|transcript|NM_001042422.2|protein_coding|4/5|c.1118C>A|p.Ser373*|1268/2071|1118/1398|373/465||	GT:PL	0/1:31,3,0
+18	8387221	COSM5427909	G	C	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=PTPRM_ENST00000400060;ANN=C|synonymous_variant|LOW|PTPRM|PTPRM|transcript|NM_001105244.1|protein_coding|31/33|c.4194G>C|p.Thr1398Thr|4697/5600|4194/4398|1398/1465||	GT:PL	0/1:39,3,0
+18	8394585	.	A	G	8.79264	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|PTPRM|PTPRM|transcript|NM_001105244.1|protein_coding|32/33|c.4318A>G|p.Asn1440Asp|4821/5600|4318/4398|1440/1465||	GT:PL	0/1:36,3,0
+19	1026719	.	A	T	38.3354	PASS	DP=2;VDB=0.28;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=T|missense_variant|MODERATE|CNN2|CNN2|transcript|NM_001303501.1|protein_coding|1/7|c.58A>T|p.Asn20Tyr|445/2548|58/993|20/330||	GT:PL	1/1:66,6,0
+19	2042777	.	A	G	10.5754	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|MKNK2|MKNK2|transcript|NM_199054.2|protein_coding|8/14|c.587T>C|p.Leu196Pro|832/3785|587/1398|196/465||	GT:PL	0/1:38,3,0
+19	3977488	COSM3756774	A	G	92.0	PASS	DP=5;VDB=0.102722;SGB=-0.511536;MQ0F=0;AC=2;AN=2;DP4=0,0,3,0;MQ=50;GENE=EEF2;ANN=G|synonymous_variant|LOW|EEF2|EEF2|transcript|NM_001961.3|protein_coding|13/15|c.2190T>C|p.Tyr730Tyr|2273/3158|2190/2577|730/858||	GT:PL	1/1:119,9,0
+19	4498017	.	T	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|missense_variant|MODERATE|HDGFRP2|HDGFRP2|transcript|NM_001001520.2|protein_coding|11/16|c.1388T>C|p.Val463Ala|1543/2381|1388/2016|463/671||	GT:PL	0/1:34,3,0
+19	12675925	.	A	G	8.79264	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|synonymous_variant|LOW|DHPS|DHPS|transcript|NM_001930.3|protein_coding|9/9|c.1023T>C|p.Ala341Ala|1144/1352|1023/1110|341/369||	GT:PL	0/1:36,3,0
+19	15109748	.	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|missense_variant|MODERATE|SYDE1|SYDE1|transcript|NM_033025.5|protein_coding|3/8|c.475T>C|p.Ser159Pro|545/3303|475/2208|159/735||	GT:PL	0/1:37,3,0
+19	38309283	.	C	T	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|YIF1B|YIF1B|transcript|NM_001039672.2|protein_coding|3/8|c.343G>A|p.Val115Met|392/2786|343/945|115/314||	GT:PL	0/1:37,3,0
+19	41257568	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|AXL|AXL|transcript|NM_021913.4|protein_coding|19/20|c.2272A>G|p.Ile758Val|2466/4742|2272/2685|758/894||	GT:PL	0/1:34,3,0
+19	47740937	COSM4416187	A	G	55.0	PASS	DP=3;VDB=0.38;SGB=-0.453602;MQ0F=0;AC=2;AN=2;DP4=0,0,2,0;MQ=50;GENE=EHD2;ANN=G|synonymous_variant|LOW|EHD2|EHD2|transcript|NM_014601.3|protein_coding|6/6|c.1137A>G|p.Leu379Leu|1387/3584|1137/1632|379/543||	GT:PL	1/1:82,6,0
+19	54174203	COSM4000912	G	A	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=MBOAT7;ANN=A|synonymous_variant|LOW|MBOAT7|MBOAT7.4|transcript|NM_024298.4|protein_coding|8/8|c.1260C>T|p.Ala420Ala|1808/2599|1260/1419|420/472||	GT:PL	0/1:37,3,0
+19	55678535	.	A	G	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|EPN1|EPN1|transcript|NM_001130071.1|protein_coding|3/11|c.241A>G|p.Thr81Ala|788/2947|241/1989|81/662||	GT:PL	0/1:31,3,0
+2	1653714	.	G	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|PXDN|PXDN|transcript|NM_012293.2|protein_coding|16/23|c.2018C>T|p.Ala673Val|2110/6849|2018/4440|673/1479||	GT:PL	0/1:34,3,0
+2	1676957	.	G	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|PXDN|PXDN|transcript|NM_012293.2|protein_coding|8/23|c.818C>G|p.Pro273Arg|910/6849|818/4440|273/1479||	GT:PL	0/1:34,3,0
+2	32039594	.	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|splice_region_variant|LOW|DPY30|DPY30|transcript|NM_032574.2|protein_coding|1/5|c.-38A>G||||||	GT:PL	0/1:37,3,0
+2	36510053	.	C	T	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=T|synonymous_variant|LOW|CRIM1|CRIM1|transcript|NM_016441.2|protein_coding|9/17|c.1572C>T|p.Ala524Ala|1638/5611|1572/3111|524/1036||	GT:PL	0/1:33,3,0
+2	61283190	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|synonymous_variant|LOW|USP34|USP34|transcript|NM_014709.3|protein_coding|37/80|c.4953T>C|p.Asp1651Asp|4975/11310|4953/10641|1651/3546||	GT:PL	0/1:34,3,0
+2	65268566	.	A	T	8.79264	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant&splice_region_variant|MODERATE|ACTR2|ACTR2|transcript|NM_001005386.2|protein_coding|10/10|c.1032A>T|p.Lys344Asn|1247/3937|1032/1200|344/399||	GT:PL	0/1:36,3,0
+2	84906414	.	A	G	20.4395	PASS	DP=4;VDB=0.52;SGB=-0.453602;RPB=1;MQB=1;MQSB=1;BQB=0.25;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,1,1,1;MQ=50;ANN=G|synonymous_variant|LOW|TMSB10|TMSB10|transcript|NM_021103.3|protein_coding|3/3|c.126A>G|p.Glu42Glu|221/482|126/135|42/44||	GT:PL	0/1:53,0,57
+2	101004251	.	G	T	4.37722	PASS	DP=2;SGB=-0.379885;RPB=1;MQB=1;MQSB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,0,0,1;MQ=50;ANN=T|missense_variant|MODERATE|RPL31|RPL31|transcript|NM_001098577.2|protein_coding|3/5|c.201G>T|p.Arg67Ser|288/1129|201/387|67/128||	GT:PL	0/1:35,0,32
+2	101859857	.	C	A	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|MAP4K4|MAP4K4|transcript|NM_145686.3|protein_coding|15/31|c.1604C>A|p.Ala535Glu|1982/7641|1604/3822|535/1273||	GT:PL	0/1:39,3,0
+2	101871646	.	G	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|MAP4K4|MAP4K4|transcript|NM_145686.3|protein_coding|22/31|c.2580G>C|p.Met860Ile|2958/7641|2580/3822|860/1273||	GT:PL	0/1:41,3,0
+2	169808860	.	G	A	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|splice_region_variant&synonymous_variant|LOW|SSB|SSB|transcript|NM_001294145.1|protein_coding|8/12|c.627G>A|p.Gln209Gln|1125/2030|627/1227|209/408||	GT:PL	0/1:33,3,0
+2	191362367	.	T	G	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|MYO1B|MYO1B|transcript|NM_001130158.1|protein_coding|9/31|c.761T>G|p.Val254Gly|1016/5095|761/3411|254/1136||	GT:PL	0/1:31,3,0
+2	206141952	COSM4001476	T	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=NDUFS1;ANN=C|synonymous_variant|LOW|NDUFS1|NDUFS1|transcript|NM_001199984.1|protein_coding|12/19|c.1293A>G|p.Arg431Arg|1354/3393|1293/2226|431/741||	GT:PL	0/1:41,3,0
+2	215364969	.	A	G	27.4023	PASS	DP=4;VDB=0.5;SGB=-0.453602;RPB=0.5;MQB=1;MQSB=1;BQB=0;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,1,0,2;MQ=50;ANN=G|synonymous_variant|LOW|FN1|FN1|transcript|NM_212482.1|protein_coding|44/46|c.7161T>C|p.Tyr2387Tyr|7427/8799|7161/7434|2387/2477||	GT:PL	0/1:60,0,59
+2	215370366	.	C	T	80.0	PASS	DP=3;VDB=0.275636;SGB=-0.511536;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,2;MQ=50;ANN=T|missense_variant|MODERATE|FN1|FN1|transcript|NM_212482.1|protein_coding|41/46|c.6781G>A|p.Val2261Ile|7047/8799|6781/7434|2261/2477||	GT:PL	1/1:108,9,0
+2	215384096	.	G	A	26.3587	PASS	DP=5;VDB=0.96;SGB=-0.453602;RPB=1;MQB=1;MQSB=1;BQB=0;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,1,1,1;MQ=50;ANN=A|synonymous_variant|LOW|FN1|FN1|transcript|NM_212482.1|protein_coding|30/46|c.4818C>T|p.Thr1606Thr|5084/8799|4818/7434|1606/2477||	GT:PL	0/1:59,0,77
+2	215404486	.	T	G	53.0	PASS	DP=2;VDB=0.42;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=G|synonymous_variant|LOW|FN1|FN1|transcript|NM_212482.1|protein_coding|20/46|c.3156A>C|p.Pro1052Pro|3422/8799|3156/7434|1052/2477||	GT:PL	1/1:81,6,0
+2	215404531	.	T	G	89.0	PASS	DP=4;VDB=0.598038;SGB=-0.511536;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,2,1;MQ=50;ANN=G|synonymous_variant|LOW|FN1|FN1|transcript|NM_212482.1|protein_coding|20/46|c.3111A>C|p.Gly1037Gly|3377/8799|3111/7434|1037/2477||	GT:PL	1/1:116,9,0
+2	215406362	.	C	A	4.35012	PASS	DP=3;SGB=-0.379885;RPB=1;MQB=1;MQSB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=1,0,0,1;MQ=50;ANN=A|synonymous_variant|LOW|FN1|FN1|transcript|NM_212482.1|protein_coding|19/46|c.2862G>T|p.Leu954Leu|3128/8799|2862/7434|954/2477||	GT:PL	0/1:35,0,44
+2	215408177	.	T	G	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|missense_variant|MODERATE|FN1|FN1|transcript|NM_212482.1|protein_coding|17/46|c.2449A>C|p.Thr817Pro|2715/8799|2449/7434|817/2477||	GT:PL	0/1:40,3,0
+2	215419301	.	C	G	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|FN1|FN1|transcript|NM_212482.1|protein_coding|12/46|c.1760G>C|p.Cys587Ser|2026/8799|1760/7434|587/2477||	GT:PL	0/1:41,3,0
+2	216676859	.	T	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|IGFBP5|IGFBP5|transcript|NM_000599.3|protein_coding|4/4|c.711A>G|p.Lys237Lys|1485/6239|711/819|237/272||	GT:PL	0/1:41,3,0
+2	218649059	.	T	C	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|ZNF142|ZNF142|transcript|NM_001105537.2|protein_coding|6/10|c.849A>G|p.Pro283Pro|1287/5925|849/5064|283/1687||	GT:PL	0/1:40,3,0
+2	229802315	.	G	A	22.6577	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|TRIP12|TRIP12|transcript|NM_001284214.1|protein_coding|21/42|c.3062C>T|p.Ala1021Val|3241/10019|3062/6123|1021/2040||	GT:PL	1/1:50,3,0
+2	229836908	.	T	C	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|TRIP12|TRIP12|transcript|NM_001284214.1|protein_coding|6/42|c.1210A>G|p.Asn404Asp|1389/10019|1210/6123|404/2040||	GT:PL	0/1:31,3,0
+2	237336251	.	G	T	3.2178	PASS	DP=2;SGB=-0.379885;RPB=1;MQB=1;MQSB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,1,1,0;MQ=50;ANN=T|missense_variant|MODERATE|COL6A3|COL6A3|transcript|NM_004369.3|protein_coding|40/44|c.8849C>A|p.Ala2950Glu|9134/10581|8849/9534|2950/3177||	GT:PL	0/1:33,0,35
+2	237344422	COSM4001576	C	T	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=COL6A3;ANN=T|synonymous_variant|LOW|COL6A3|COL6A3|transcript|NM_004369.3|protein_coding|36/44|c.7596G>A|p.Lys2532Lys|7881/10581|7596/9534|2532/3177||	GT:PL	0/1:39,3,0
+2	237358521	.	C	T	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|splice_region_variant&synonymous_variant|LOW|COL6A3|COL6A3|transcript|NM_004369.3|protein_coding|21/44|c.6471G>A|p.Pro2157Pro|6756/10581|6471/9534|2157/3177||	GT:PL	0/1:41,3,0
+2	237359074	COSM4418299	C	T	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=COL6A3;ANN=T|synonymous_variant|LOW|COL6A3|COL6A3|transcript|NM_004369.3|protein_coding|20/44|c.6369G>A|p.Leu2123Leu|6654/10581|6369/9534|2123/3177||	GT:PL	0/1:41,3,0
+2	237361820	COSM3909935	G	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=COL6A3;ANN=A|synonymous_variant|LOW|COL6A3|COL6A3|transcript|NM_004369.3|protein_coding|15/44|c.6075C>T|p.Ala2025Ala|6360/10581|6075/9534|2025/3177||	GT:PL	0/1:34,3,0
+20	50129577	.	G	A	25.3473	PASS	DP=2;VDB=0.92;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=A|synonymous_variant|LOW|TMEM189-UBE2V1|TMEM189-UBE2V1|transcript|NM_199203.2|protein_coding|4/8|c.447C>T|p.Asn149Asn|608/2918|447/1113|149/370||,A|synonymous_variant|LOW|TMEM189|TMEM189|transcript|NM_199129.2|protein_coding|4/6|c.447C>T|p.Asn149Asn|608/2295|447/813|149/270||	GT:PL	1/1:53,6,0
+21	33554985	COSM1318814	T	C	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=SON;ANN=C|synonymous_variant|LOW|SON|SON|transcript|NM_138927.2|protein_coding|3/12|c.5754T>C|p.Val1918Val|5809/8426|5754/7281|1918/2426||	GT:PL	0/1:40,3,0
+21	44940085	.	C	T	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|stop_gained|HIGH|FAM207A|FAM207A|transcript|NM_058190.3|protein_coding|1/6|c.28C>T|p.Arg10*|89/940|28/693|10/230||;LOF=(FAM207A|FAM207A|1|1.00);NMD=(FAM207A|FAM207A|1|1.00)	GT:PL	0/1:41,3,0
+21	44967163	COSM3758940	G	T	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=C21orf70;ANN=T|missense_variant|MODERATE|FAM207A|FAM207A|transcript|NM_058190.3|protein_coding|4/6|c.482G>T|p.Ser161Ile|543/940|482/693|161/230||	GT:PL	0/1:40,3,0
+21	45990773	.	G	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|missense_variant&splice_region_variant|MODERATE|COL6A1|COL6A1|transcript|NM_001848.2|protein_coding|14/35|c.1003G>A|p.Gly335Arg|1105/4225|1003/3087|335/1028||	GT:PL	0/1:34,3,0
+21	46003595	COSM444607	C	T	22.6577	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;GENE=COL6A1;ANN=T|missense_variant|MODERATE|COL6A1|COL6A1|transcript|NM_001848.2|protein_coding|35/35|c.2669C>T|p.Ser890Leu|2771/4225|2669/3087|890/1028||	GT:PL	1/1:50,3,0
+21	46126027	COSM478678	C	T	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=COL6A2;ANN=T|missense_variant|MODERATE|COL6A2|COL6A2|transcript|NM_001849.3|protein_coding|26/28|c.2212C>T|p.Arg738Trp|2294/3439|2212/3060|738/1019||	GT:PL	0/1:40,3,0
+22	19880695	COSM5022107	A	G	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=TXNRD2;ANN=G|missense_variant|MODERATE|TXNRD2|TXNRD2|transcript|NM_006440.4|protein_coding|13/18|c.1109T>C|p.Ile370Thr|1298/2119|1109/1575|370/524||	GT:PL	0/1:33,3,0
+22	31201500	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|splice_region_variant&synonymous_variant|LOW|RNF185|RNF185|transcript|NM_152267.3|protein_coding|6/7|c.366A>G|p.Gly122Gly|566/3212|366/579|122/192||	GT:PL	0/1:34,3,0
+22	31262669	.	G	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|synonymous_variant|LOW|LIMK2|LIMK2|transcript|NM_001031801.1|protein_coding|6/15|c.669G>A|p.Leu223Leu|1024/2914|669/2061|223/686||	GT:PL	0/1:34,3,0
+22	35386728	.	A	G	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|HMOX1|HMOX1|transcript|NM_002133.2|protein_coding|3/5|c.188A>G|p.Glu63Gly|295/1590|188/867|63/288||	GT:PL	0/1:31,3,0
+22	41249753	COSM4002193	C	G	26.9247	PASS	DP=3;VDB=0.22;SGB=-0.453602;RPB=1;MQB=1;MQSB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,1,1,1;MQ=50;GENE=RANGAP1;ANN=G|synonymous_variant|LOW|RANGAP1|RANGAP1|transcript|NM_001278651.1|protein_coding|15/17|c.1548G>C|p.Leu516Leu|2313/4355|1548/1764|516/587||	GT:PL	0/1:60,0,25
+22	42623855	.	C	A	37.3355	PASS	DP=2;VDB=0.64;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=A|stop_gained|HIGH|CYB5R3|CYB5R3|transcript|NM_001171660.1|protein_coding|8/9|c.766G>T|p.Glu256*|891/3063|766/1005|256/334||;LOF=(CYB5R3|CYB5R3|1|1.00);NMD=(CYB5R3|CYB5R3|1|1.00)	GT:PL	1/1:65,6,0
+22	50283705	COSM445170	T	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=PLXNB2;ANN=C|missense_variant|MODERATE|PLXNB2|PLXNB2|transcript|NM_012401.3|protein_coding|15/37|c.2467A>G|p.Ile823Val|2560/6335|2467/5517|823/1838||	GT:PL	0/1:41,3,0
+22	50462426	COSM5449708	G	A	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=SBF1;ANN=A|synonymous_variant|LOW|SBF1|SBF1|transcript|NM_002972.3|protein_coding|19/41|c.2175C>T|p.Asp725Asp|2406/8054|2175/5682|725/1893||	GT:PL	0/1:41,3,0
+3	33130007	.	T	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|CRTAP|CRTAP|transcript|NM_006371.4|protein_coding|4/7|c.862T>G|p.Tyr288Asp|982/6651|862/1206|288/401||	GT:PL	0/1:34,3,0
+3	39408656	.	G	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|missense_variant|MODERATE|RPSA|RPSA|transcript|NM_001304288.1|protein_coding|3/7|c.184G>C|p.Ala62Pro|293/1185|184/903|62/300||	GT:PL	0/1:41,3,0
+3	45595947	COSM4158052	T	C	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=LIMD1;ANN=C|synonymous_variant|LOW|LIMD1|LIMD1|transcript|NM_014240.2|protein_coding|1/8|c.1068T>C|p.Gly356Gly|1117/6284|1068/2031|356/676||	GT:PL	0/1:39,3,0
+3	47916721	.	T	C	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|MAP4|MAP4|transcript|NM_002375.4|protein_coding|7/19|c.1106A>G|p.Asp369Gly|1632/6327|1106/3459|369/1152||	GT:PL	0/1:40,3,0
+3	49368532	.	C	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|stop_gained|HIGH|RHOA|RHOA|transcript|NM_001313941.1|protein_coding|4/6|c.173G>A|p.Trp58*|548/2030|173/582|58/193||;LOF=(RHOA|RHOA|1|1.00);NMD=(RHOA|RHOA|1|1.00)	GT:PL	0/1:34,3,0
+3	58142665	.	T	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|FLNB|FLNB|transcript|NM_001164317.1|protein_coding|32/47|c.5290T>G|p.Tyr1764Asp|5455/9560|5290/7902|1764/2633||	GT:PL	0/1:34,3,0
+3	120409623	.	C	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|FSTL1|FSTL1|transcript|NM_007085.4|protein_coding|6/11|c.371G>A|p.Arg124His|546/3840|371/927|124/308||	GT:PL	0/1:34,3,0
+3	126026386	.	A	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|SLC41A3|SLC41A3|transcript|NM_001008485.1|protein_coding|5/12|c.547T>A|p.Leu183Met|773/1800|547/1524|183/507||	GT:PL	0/1:34,3,0
+3	127032403	.	T	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|PLXNA1|PLXNA1|transcript|NM_032242.3|protein_coding|29/31|c.5248T>G|p.Trp1750Gly|5248/9066|5248/5691|1750/1896||	GT:PL	0/1:34,3,0
+4	10097716	COSM4002877	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=WDR1_ENST00000499869;ANN=C|missense_variant|MODERATE|WDR1|WDR1|transcript|NM_017491.3|protein_coding|5/15|c.553A>G|p.Ile185Val|836/3143|553/1821|185/606||	GT:PL	0/1:37,3,0
+4	47848301	.	A	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|synonymous_variant|LOW|NFXL1|NFXL1|transcript|NM_001278623.1|protein_coding|23/23|c.2598T>G|p.Gly866Gly|2655/3723|2598/2736|866/911||	GT:PL	0/1:34,3,0
+4	47851871	.	C	G	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|NFXL1|NFXL1|transcript|NM_001278623.1|protein_coding|21/23|c.2493G>C|p.Lys831Asn|2550/3723|2493/2736|831/911||	GT:PL	0/1:41,3,0
+4	80203442	COSM1431298	G	C	10.083	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;GENE=PRDM8;ANN=C|synonymous_variant|LOW|PRDM8|PRDM8|transcript|NM_001099403.1|protein_coding|4/4|c.1980G>C|p.Arg660Arg|2243/3129|1980/2070|660/689||	GT:PL	1/1:37,3,0
+4	87164013	.	T	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|missense_variant|MODERATE|KLHL8|KLHL8|transcript|NM_001292003.1|protein_coding|9/10|c.1604A>C|p.Asp535Ala|1989/5663|1604/1863|535/620||	GT:PL	0/1:34,3,0
+4	121668474	.	A	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|missense_variant|MODERATE|ANXA5|ANXA5|transcript|NM_001154.3|protein_coding|13/13|c.957T>G|p.Asp319Glu|1122/1599|957/963|319/320||	GT:PL	0/1:37,3,0
+4	186706638	COSM4003034	T	C	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;GENE=FAT1;ANN=C|missense_variant|MODERATE|FAT1|FAT1|transcript|NM_005245.3|protein_coding|2/27|c.3190A>G|p.Arg1064Gly|3378/14764|3190/13767|1064/4588||	GT:PL	0/1:41,3,0
+5	10256049	COSM5513979	T	C	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=CCT5;ANN=C|synonymous_variant|LOW|CCT5|CCT5|transcript|NM_012073.4|protein_coding|4/11|c.426T>C|p.Arg142Arg|846/3675|426/1626|142/541||	GT:PL	0/1:39,3,0
+5	16685769	.	T	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|MYO10|MYO10|transcript|NM_012334.2|protein_coding|29/41|c.3959A>G|p.His1320Arg|4427/11430|3959/6177|1320/2058||	GT:PL	0/1:34,3,0
+5	33454977	.	T	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|synonymous_variant|LOW|TARS|TARS|transcript|NM_001258438.1|protein_coding|6/20|c.585T>A|p.Gly195Gly|896/2965|585/2271|195/756||	GT:PL	0/1:34,3,0
+5	96785820	COSM4419152	C	T	38.3354	PASS	DP=2;VDB=0.7;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=ERAP1;ANN=T|synonymous_variant|LOW|ERAP1|ERAP1|transcript|NM_016442.3|protein_coding|13/20|c.1911G>A|p.Ala637Ala|2258/5584|1911/2847|637/948||	GT:PL	1/1:66,6,0
+5	103009769	.	A	G	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|PAM|PAM|transcript|NM_000919.3|protein_coding|20/25|c.2234A>G|p.Asn745Ser|2607/5337|2234/2925|745/974||	GT:PL	0/1:37,3,0
+5	103009770	.	T	C	7.93884	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|PAM|PAM|transcript|NM_000919.3|protein_coding|20/25|c.2235T>C|p.Asn745Asn|2608/5337|2235/2925|745/974||	GT:PL	0/1:35,3,0
+5	127551877	COSM3760898	G	A	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=PRRC1_ENST00000512635;ANN=A|splice_region_variant&synonymous_variant|LOW|PRRC1|PRRC1|transcript|NM_001286808.1|protein_coding|9/10|c.1299G>A|p.Ala433Ala|1487/2780|1299/1389|433/462||	GT:PL	0/1:41,3,0
+5	136052974	COSM4159427	A	G	28.0123	PASS	DP=3;VDB=0.76;SGB=-0.453602;RPB=1;MQB=1;BQB=1;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,1,0,2;MQ=50;GENE=TGFBI;ANN=G|synonymous_variant|LOW|TGFBI|TGFBI|transcript|NM_000358.2|protein_coding|8/17|c.981A>G|p.Val327Val|1142/2805|981/2052|327/683||	GT:PL	0/1:61,0,32
+5	138556850	.	A	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|HSPA9|HSPA9|transcript|NM_004134.6|protein_coding|15/17|c.1745T>G|p.Val582Gly|2056/3506|1745/2040|582/679||	GT:PL	0/1:34,3,0
+5	146510516	.	T	A	4.23583	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|stop_gained|HIGH|TCERG1|TCERG1|transcript|NM_006706.3|protein_coding|22/22|c.3171T>A|p.Tyr1057*|3211/4201|3171/3297|1057/1098||	GT:PL	0/1:30,3,0
+5	172834416	.	G	A	34.3363	PASS	DP=2;VDB=0.68;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=A|start_lost|HIGH|ERGIC1|ERGIC1|transcript|NM_001031711.2|protein_coding|1/10|c.3G>A|p.Met1?|197/2936|3/873|1/290||;LOF=(ERGIC1|ERGIC1|1|1.00)	GT:PL	1/1:62,6,0
+5	177458215	.	GGC	G	22.2031	PASS	INDEL;IDV=1;IMF=1;DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|frameshift_variant|HIGH|DBN1|DBN1|transcript|NM_080881.2|protein_coding|13/15|c.1623_1624delGC|p.Pro542fs|1906/3058|1623/1956|541/651||;LOF=(DBN1|DBN1|1|1.00)	GT:PL	0/1:50,3,0
+5	179705747	.	T	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|CANX|CANX|transcript|NM_001024649.1|protein_coding|2/15|c.66T>C|p.Asp22Asp|190/4897|66/1779|22/592||	GT:PL	0/1:34,3,0
+6	31663911	.	G	A	10.5754	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|missense_variant|MODERATE|GPANK1|GPANK1.5|transcript|NM_001199237.1.5|protein_coding|3/4|c.568C>T|p.Pro190Ser|1253/2793|568/1071|190/356||	GT:PL	0/1:38,3,0
+6	33417643	.	G	A	22.6577	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|CUTA|CUTA|transcript|NM_001014433.2|protein_coding|2/6|c.152C>T|p.Ser51Phe|255/808|152/597|51/198||	GT:PL	1/1:50,3,0
+6	35470604	.	G	T	17.4141	PASS	DP=2;VDB=0.58;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=T|missense_variant|MODERATE|RPL10A|RPL10A|transcript|NM_007104.4|protein_coding|6/6|c.508G>T|p.Gly170Cys|542/719|508/654|170/217||	GT:PL	1/1:45,6,0
+6	41936044	COSM451455	A	C	41.3351	PASS	DP=2;VDB=0.66;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=CCND3;ANN=C|missense_variant|MODERATE|CCND3|CCND3|transcript|NM_001760.4|protein_coding|5/5|c.775T>G|p.Ser259Ala|974/2085|775/879|259/292||	GT:PL	1/1:69,6,0
+6	75138465	COSM4161350	A	G	40.3352	PASS	DP=2;VDB=0.96;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=COL12A1;ANN=G|missense_variant|MODERATE|COL12A1|COL12A1|transcript|NM_004370.5|protein_coding|29/66|c.5213T>C|p.Ile1738Thr|5379/11579|5213/9192|1738/3063||	GT:PL	1/1:68,6,0
+6	82366197	COSM4161360	G	A	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=TPBG;ANN=A|synonymous_variant|LOW|TPBG|TPBG|transcript|NM_001166392.1|protein_coding|2/2|c.1236G>A|p.Thr412Thr|1661/2880|1236/1263|412/420||	GT:PL	0/1:37,3,0
+7	5359413	COSM3762756	C	G	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=TNRC18_ENST00000430969;ANN=G|synonymous_variant|LOW|TNRC18|TNRC18|transcript|NM_001080495.2|protein_coding|15/30|c.4818G>C|p.Ser1606Ser|5167/10570|4818/8907|1606/2968||	GT:PL	0/1:33,3,0
+7	5527808	COSM4520641	C	G	11.4963	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;GENE=ACTB;ANN=G|missense_variant|MODERATE|ACTB|ACTB|transcript|NM_001101.3|protein_coding|6/6|c.1068G>C|p.Trp356Cys|1152/1812|1068/1128|356/375||	GT:PL	0/1:39,3,0
+7	23317650	.	C	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=T|missense_variant|MODERATE|IGF2BP3|IGF2BP3|transcript|NM_006547.2|protein_coding|12/15|c.1384G>A|p.Ala462Thr|1650/4159|1384/1740|462/579||	GT:PL	0/1:34,3,0
+7	24872000	.	C	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|missense_variant|MODERATE|OSBPL3|OSBPL3|transcript|NM_015550.3|protein_coding|3/23|c.166G>C|p.Gly56Arg|642/6786|166/2664|56/887||	GT:PL	0/1:34,3,0
+7	43803732	.	C	T	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|synonymous_variant|LOW|BLVRA|BLVRA|transcript|NM_000712.3|protein_coding|7/8|c.517C>T|p.Leu173Leu|600/1081|517/891|173/296||	GT:PL	0/1:33,3,0
+7	94412625	COSM1452968	A	C	28.341	PASS	DP=2;VDB=0.48;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;GENE=COL1A2;ANN=C|synonymous_variant|LOW|COL1A2|COL1A2|transcript|NM_000089.3|protein_coding|25/52|c.1446A>C|p.Pro482Pro|1917/5411|1446/4101|482/1366||	GT:PL	1/1:56,6,0
+7	94419545	.	T	C	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|COL1A2|COL1A2|transcript|NM_000089.3|protein_coding|34/52|c.2073T>C|p.Gly691Gly|2544/5411|2073/4101|691/1366||	GT:PL	0/1:37,3,0
+7	134450793	.	C	A	4.23583	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|missense_variant|MODERATE|AKR1B1|AKR1B1|transcript|NM_001628.2|protein_coding|3/10|c.344G>T|p.Gly115Val|418/1398|344/951|115/316||	GT:PL	0/1:30,3,0
+8	22415954	.	G	T	12.4325	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=T|synonymous_variant|LOW|SLC39A14|SLC39A14|transcript|NM_001128431.2|protein_coding|6/9|c.936G>T|p.Val312Val|1111/4692|936/1479|312/492||	GT:PL	0/1:40,3,0
+8	37840848	.	T	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant&splice_region_variant|MODERATE|ADGRA2|ADGRA2|transcript|NM_032777.9|protein_coding|18/19|c.2746T>C|p.Tyr916His|3132/6034|2746/4017|916/1338||	GT:PL	0/1:34,3,0
+8	37840849	.	A	G	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|missense_variant&splice_region_variant|MODERATE|ADGRA2|ADGRA2|transcript|NM_032777.9|protein_coding|18/19|c.2747A>G|p.Tyr916Cys|3133/6034|2747/4017|916/1338||	GT:PL	0/1:31,3,0
+8	61517658	.	T	A	5.58414	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|stop_gained|HIGH|ASPH|ASPH|transcript|NM_004318.3|protein_coding|24/25|c.1996A>T|p.Lys666*|2265/5349|1996/2277|666/758||;LOF=(ASPH|ASPH|1|1.00);NMD=(ASPH|ASPH|1|1.00)	GT:PL	0/1:32,3,0
+8	100704359	.	T	C	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|PABPC1|PABPC1|transcript|NM_002568.3|protein_coding|14/15|c.1850A>G|p.His617Arg|2354/2860|1850/1911|617/636||	GT:PL	0/1:31,3,0
+8	100920738	.	A	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|YWHAZ|YWHAZ|transcript|NM_001135699.1|protein_coding|6/6|c.693T>A|p.Asp231Glu|848/3010|693/738|231/245||	GT:PL	0/1:34,3,0
+8	102272625	.	GT	G	10.0825	PASS	INDEL;IDV=2;IMF=1;DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|frameshift_variant|HIGH|UBR5|UBR5|transcript|NM_015902.5|protein_coding|48/59|c.6876delA|p.Arg2293fs|7331/10883|6876/8400|2292/2799||;LOF=(UBR5|UBR5|1|1.00)	GT:PL	1/1:37,3,0
+8	108228335	.	A	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|synonymous_variant|LOW|EIF3E|EIF3E|transcript|NM_001568.2|protein_coding|7/13|c.654T>G|p.Ser218Ser|682/1508|654/1338|218/445||	GT:PL	0/1:34,3,0
+8	144393787	.	T	C	6.32957	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|CPSF1|CPSF1|transcript|NM_013291.2|protein_coding|36/38|c.4025A>G|p.Asp1342Gly|4100/4494|4025/4332|1342/1443||	GT:PL	0/1:33,3,0
+8	144790460	.	A	G	4.88476	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|synonymous_variant|LOW|RPL8|RPL8|transcript|NM_000973.3|protein_coding|5/6|c.510T>C|p.Ala170Ala|576/875|510/774|170/257||	GT:PL	0/1:31,3,0
+9	71694517	.	C	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|TMEM2|TMEM2|transcript|NM_013390.2|protein_coding|21/24|c.3688G>A|p.Val1230Ile|4228/6523|3688/4152|1230/1383||	GT:PL	0/1:34,3,0
+9	78328068	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|PSAT1|PSAT1|transcript|NM_058179.3|protein_coding|8/9|c.887A>G|p.Gln296Arg|1023/2256|887/1113|296/370||	GT:PL	0/1:34,3,0
+9	92244995	.	A	G	45.335	PASS	DP=2;VDB=0.66;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=G|synonymous_variant|LOW|IARS|IARS|transcript|NM_002161.5|protein_coding|27/34|c.2868T>C|p.Gly956Gly|3021/4540|2868/3789|956/1262||	GT:PL	1/1:73,6,0
+9	111373986	.	A	T	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=T|missense_variant|MODERATE|KIAA0368|KIAA0368|transcript|NM_001080398.1|protein_coding|40/51|c.4697T>A|p.Leu1566Gln|4697/7391|4697/6054|1566/2017||	GT:PL	0/1:34,3,0
+9	115029380	.	C	T	39.3353	PASS	DP=2;VDB=0.6;SGB=-0.453602;MQSB=1;MQ0F=0;AC=2;AN=2;DP4=0,0,1,1;MQ=50;ANN=T|missense_variant|MODERATE|TNC|TNC|transcript|NM_002160.3|protein_coding|25/28|c.6149G>A|p.Arg2050His|6561/8599|6149/6606|2050/2201||	GT:PL	1/1:67,6,0
+9	115087035	COSM3763576	T	C	22.6577	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;GENE=TNC;ANN=C|synonymous_variant|LOW|TNC|TNC|transcript|NM_002160.3|protein_coding|3/28|c.696A>G|p.Val232Val|1108/8599|696/6606|232/2201||	GT:PL	1/1:50,3,0
+9	121302940	.	G	A	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=A|protein_protein_contact|HIGH|GSN|GSN|interaction|NM_000177.4:4PKH_B:73_127|protein_coding|3/17|c.379G>A||||||,A|protein_protein_contact|HIGH|GSN|GSN|interaction|NM_000177.4:4PKH_E:73_127|protein_coding|3/17|c.379G>A||||||,A|protein_protein_contact|HIGH|GSN|GSN|interaction|NM_000177.4:4PKH_G:73_127|protein_coding|3/17|c.379G>A||||||,A|protein_protein_contact|HIGH|GSN|GSN|interaction|NM_000177.4:4PKH_J:73_127|protein_coding|3/17|c.379G>A||||||,A|missense_variant|MODERATE|GSN|GSN|transcript|NM_000177.4|protein_coding|3/17|c.379G>A|p.Ala127Thr|440/2649|379/2349|127/782||	GT:PL	0/1:34,3,0
+9	121302941	.	C	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|GSN|GSN|transcript|NM_000177.4|protein_coding|3/17|c.380C>G|p.Ala127Gly|441/2649|380/2349|127/782||	GT:PL	0/1:34,3,0
+9	123074337	.	A	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|RABGAP1|RABGAP1|transcript|NM_012197.3|protein_coding|17/26|c.2162A>G|p.His721Arg|2296/4999|2162/3210|721/1069||	GT:PL	0/1:34,3,0
+9	127449619	.	T	G	9.6729	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|missense_variant|MODERATE|RPL12|RPL12|transcript|NM_000976.3|protein_coding|3/7|c.201A>C|p.Arg67Ser|316/660|201/498|67/165||	GT:PL	0/1:37,3,0
+X	115646092	.	T	G	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|missense_variant|MODERATE|PLS3|PLS3|transcript|NM_001136025.4|protein_coding|12/16|c.1283T>G|p.Val428Gly|1417/3325|1283/1893|428/630||	GT:PL	0/1:34,3,0
+X	154353383	.	C	A	7.93884	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|FLNA|FLNA|transcript|NM_001110556.1|protein_coding|37/48|c.5935G>T|p.Asp1979Tyr|6184/8510|5935/7944|1979/2647||	GT:PL	0/1:35,3,0
+X	154353384	.	C	G	7.93884	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=G|synonymous_variant|LOW|FLNA|FLNA|transcript|NM_001110556.1|protein_coding|37/48|c.5934G>C|p.Thr1978Thr|6183/8510|5934/7944|1978/2647||	GT:PL	0/1:35,3,0
+X	154353564	.	A	G	13.3811	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=G|synonymous_variant|LOW|FLNA|FLNA|transcript|NM_001110556.1|protein_coding|36/48|c.5850T>C|p.Ala1950Ala|6099/8510|5850/7944|1950/2647||	GT:PL	0/1:41,3,0
+X	154364356	.	G	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,1,0;MQ=50;ANN=C|missense_variant|MODERATE|FLNA|FLNA|transcript|NM_001110556.1|protein_coding|14/48|c.2039C>G|p.Pro680Arg|2288/8510|2039/7944|680/2647||	GT:PL	0/1:34,3,0
+X	154400814	.	G	A	22.6577	PASS	DP=2;SGB=-0.379885;MQ0F=0;AC=2;AN=2;DP4=0,0,1,0;MQ=50;ANN=A|missense_variant|MODERATE|RPL10|RPL10|transcript|NM_001256577.2|protein_coding|6/6|c.442G>A|p.Val148Ile|795/2320|442/651|148/216||	GT:PL	1/1:50,3,0
+X	154405071	.	A	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|missense_variant|MODERATE|DNASE1L1|DNASE1L1|transcript|NM_001009932.2|protein_coding|5/10|c.148T>G|p.Cys50Gly|779/3011|148/909|50/302||	GT:PL	0/1:34,3,0
+X	154405072	.	G	C	7.11616	PASS	DP=1;SGB=-0.379885;MQ0F=0;ICB=1;HOB=0.5;AC=1;AN=2;DP4=0,0,0,1;MQ=50;ANN=C|synonymous_variant|LOW|DNASE1L1|DNASE1L1|transcript|NM_001009932.2|protein_coding|5/10|c.147C>G|p.Arg49Arg|778/3011|147/909|49/302||	GT:PL	0/1:34,3,0

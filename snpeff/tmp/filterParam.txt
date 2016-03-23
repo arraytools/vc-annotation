@@ -1,0 +1,3 @@
+minimum quality 1
+minimum read depth 1
+minimum mapping quality 1
