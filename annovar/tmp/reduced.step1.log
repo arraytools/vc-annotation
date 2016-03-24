@@ -1,0 +1,14 @@
+ANNOVAR Version:
+	$Date: 2016-02-01 00:11:04 -0800 (Mon,  1 Feb 2016) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	/home/brb/annovar/annotate_variation.pl -geneanno -buildver hg38 -dbtype refgene -outfile /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_annovar/tmp/tmp_LFB_scramble_repA_raw/reduced.step1 /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_annovar/tmp/tmp_LFB_scramble_repA_raw/reduced.step0.varlist /home/brb/annovar/humandb/
+ANNOVAR Started:
+	Thu Mar 24 09:20:18 2016
+NOTICE: Output files were written to /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_annovar/tmp/tmp_LFB_scramble_repA_raw/reduced.step1.variant_function, /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_annovar/tmp/tmp_LFB_scramble_repA_raw/reduced.step1.exonic_variant_function
+NOTICE: Reading gene annotation from /home/brb/annovar/humandb/hg38_refGene.txt ... Done with 58800 transcripts (including 13622 without coding sequence annotation) for 26558 unique genes
+NOTICE: Processing next batch with 306 unique variants in 306 input lines
+NOTICE: Reading FASTA sequences from /home/brb/annovar/humandb/hg38_refGeneMrna.fa ... Done with 425 sequences
+WARNING: A total of 448 sequences will be ignored due to lack of correct ORF annotation
+NOTICE: Variants with invalid input format were written to /home/brb/SeqTestdata/RNASeqFibroblast/outputhg38_cli_annovar/tmp/tmp_LFB_scramble_repA_raw/reduced.step1.invalid_input

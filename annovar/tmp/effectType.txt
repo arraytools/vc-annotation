@@ -1,0 +1,7 @@
+Number of variants (out of 126 variants) that are frameshift deletion 4
+Number of variants (out of 126 variants) that are frameshift insertion 0
+Number of variants (out of 126 variants) that are stoploss 0
+Number of variants (out of 126 variants) that are stopgain 9
+Number of variants (out of 126 variants) that are mis-sense 113
+Number of variants (out of 126 variants) that are splicing 0
+Total number of variants that are nonsynonymous or splicing 126

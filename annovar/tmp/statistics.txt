@@ -1,0 +1,10 @@
+Total number of variants in the raw VCF file 451
+Number of variants left after the filter QUAL >= 1, DP >=1, MQ >= 1 451
+Number of variants after decomposing and left normalization 451
+Number of variants reported in dbSNP database 195
+Number of variants reported in COSMIC database 61
+Number of variants reported in both dbSNP and COSMIC database 50
+Number of variants remaining after removing variants reported in dbSNP while keeping variants in COSMIC 306
+Number of variants (out of 306 variants) that are nonsynonymous or splicing ones 126
+Number of variants (out of 126 variants) that are reported in COSMIC 22
+Number of genes associated with 126 variants 114
