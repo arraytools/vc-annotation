@@ -1,1 +1,8 @@
 The RNA-Seq data is a subset from SRR493366.
+
+The raw vcf file <LFB_scramble_repA_raw.vcf> is available under the annovar or snpeff directory.
+
+Files in annovar/snpeff are meant to be the final available to users.
+
+Files in tmp subdirectory are intermediate files. They will be removed at the end of execution.
+
